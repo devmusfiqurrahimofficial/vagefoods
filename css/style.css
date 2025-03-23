@@ -3,7 +3,7 @@
 body{
     padding: 0;
     margin: 0;
-    max-width: 1400px;
+    max-width: 1550px;
     margin-left: auto;
     margin-right:auto;
     font-family: "Poppins", sans-serif;
@@ -33,4 +33,39 @@ body{
 .navbar-toggler{
     border: none;
     color: rgba(255, 255, 255, 0.5);
+}
+
+
+.carousel-caption h2{
+font-weight: 300;
+font-size: 12px;
+letter-spacing: 4px;
+text-transform: uppercase;
+color: #fff;
+margin-bottom: 30px;}
+.carousel-caption h1 {
+    font-size: 8vw;
+    color: #fff;
+    line-height: 1.3;
+    font-weight: 400;
+    font-family: "Amatic SC", cursive;
+}
+.carousel-caption {
+    position: absolute;
+    top: 50%;
+    left:50%; 
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn{
+    background-color: #82ae46;
+    color: aliceblue;
+    border: 1px solid #82ae46 !important;
+    padding: 10px 20px;
+    border-radius: 30px !important;
+}
+.btn:hover{
+    background-color: none;
+    color:  #82ae46;
 }
