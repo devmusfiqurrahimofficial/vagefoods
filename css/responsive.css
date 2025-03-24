@@ -36,6 +36,13 @@
        
     
     }
+    .BEST span{   
+        font-size:12px;
+    }
+    .count-c{
+        padding: 0 20px;
+       
+     }
 }
 
 @media screen and (max-width:384px){
